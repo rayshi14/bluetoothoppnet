@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/scan_duration_radiogroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/radio_scan_duration_1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/radio_scan_duration_1" />
+
+            <RadioButton
+                android:id="@+id/radio_scan_duration_2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/radio_scan_duration_2" />
+
+            <RadioButton
+                android:id="@+id/radio_scan_duration_3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/radio_scan_duration_3" />
+
+            <RadioButton
+                android:id="@+id/radio_scan_duration_4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/radio_scan_duration_4" />
+
+            <RadioButton
+                android:id="@+id/radio_scan_duration_5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/radio_scan_duration_5" />
+
+            <RadioButton
+                android:id="@+id/radio_scan_duration_6"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/radio_scan_duration_6" />
+
+            <RadioButton
+                android:id="@+id/radio_scan_duration_7"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/radio_scan_duration_7" />
+
+            <RadioButton
+                android:id="@+id/radio_scan_duration_8"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/radio_scan_duration_8" />
+
+            <RadioButton
+                android:id="@+id/radio_scan_duration_9"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/radio_scan_duration_9" />
+
+            <RadioButton
+                android:id="@+id/radio_scan_duration_10"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/radio_scan_duration_10" />
+
+            <RadioButton
+                android:id="@+id/radio_scan_duration_11"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/radio_scan_duration_11" />
+
+            <RadioButton
+                android:id="@+id/radio_scan_duration_12"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/radio_scan_duration_12" />
+
+            <RadioButton
+                android:id="@+id/radio_scan_duration_13"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/radio_scan_duration_13" />
+
+            <RadioButton
+                android:id="@+id/radio_scan_duration_100"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/radio_scan_duration_100" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="4dip"
+            android:background="?android:attr/dividerHorizontal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <Button
+                android:id="@+id/ok_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="@string/action_confirm"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="4dip"
+                android:background="?android:attr/dividerVertical" />
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="@string/action_cancel"
+                android:textColor="#000000" />
+        </LinearLayout>
+        
+    </LinearLayout>
+</ScrollView>

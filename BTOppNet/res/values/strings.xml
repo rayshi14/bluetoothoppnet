@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BTOppNet</string>
+    <string name="device_detail">Bluetooth Device</string>
+    <string name="title_section1">Devices</string>
+    <string name="title_section2">Timing</string>
+    <string name="title_section3">Logs</string>
+    <string name="title_section4">Scans</string>
+    <string name="title_section5">Graph</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_stop">Stop</string>
+
+    <!-- Menu buttons -->
+    <string name="action_settings">Settings</string>
+    <string name="action_set_scan_interval">Scan Interval</string>
+    <string name="action_set_scan_time">Scan Duration</string>
+    <string name="action_set_autoscan_start">Auto Scan</string>
+
+    <!-- dialog buttons -->
+    <string name="action_confirm">Confirm</string>
+    <string name="action_cancel">Cancel</string>
+
+    <!-- dialog radio buttons -->
+    <string name="radio_scan_duration_1">1 seconds</string>
+    <string name="radio_scan_duration_2">2 seconds</string>
+    <string name="radio_scan_duration_3">3 seconds</string>
+    <string name="radio_scan_duration_4">4 seconds</string>
+    <string name="radio_scan_duration_5">5 seconds</string>
+    <string name="radio_scan_duration_6">6 seconds</string>
+    <string name="radio_scan_duration_7">7 seconds</string>
+    <string name="radio_scan_duration_8">8 seconds</string>
+    <string name="radio_scan_duration_9">9 seconds</string>
+    <string name="radio_scan_duration_10">10 seconds</string>
+    <string name="radio_scan_duration_11">11 seconds</string>
+    <string name="radio_scan_duration_12">12 seconds</string>
+    <string name="radio_scan_duration_13">13 seconds</string>
+    <string name="radio_scan_duration_100">No Limit</string>
+    
+    <string name="radio_scan_interval_010">10 seconds</string>
+    <string name="radio_scan_interval_020">20 seconds</string>
+    <string name="radio_scan_interval_030">30 seconds</string>
+    <string name="radio_scan_interval_1">1 minute</string>
+    <string name="radio_scan_interval_2">2 minute</string>
+    <string name="radio_scan_interval_5">5 minutes</string>
+    <string name="radio_scan_interval_10">10 minutes</string>
+    <string name="radio_scan_interval_15">15 minutes</string>
+    <string name="radio_scan_interval_30">30 minutes</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <!-- Device list -->
+    <string name="default_device_name">Unknown</string>
+    <string name="device_name_desc">device name</string>
+    <string name="device_mac_desc">MAC addr</string>
+    <string name="device_signal_desc">signal strength</string>
+    <string name="action_connect">Connect</string>
+
+    <!-- Device list header -->
+    <string name="header_device_name">Name</string>
+    <string name="header_device_mac">MAC</string>
+    <string name="header_device_rssi">RSSI</string>
+    <string name="header_device_timestamp">Time</string>
+    <string name="header_device_avg_connection_delay">Avg Conn Delay</string>
+    <string name="header_device_connection_delay">Delay</string>
+
+    <!-- Color -->
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#9C9C98</color>
+
+</resources>
